@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Coaching Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d0d0d;
+            color: #fff;
+        }
+
+        header {
+            background-color: #1c1c1c;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #e91e63;
+            text-decoration: none;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 100px 20px;
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-content h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #e91e63;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+
+        .coaches-section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .coaches-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .coach-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .coach-card {
+            background-color: #1c1c1c;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 300px;
+            text-align: left;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .coach-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .coach-card h3 {
+            margin-top: 15px;
+            font-size: 1.5em;
+        }
+
+        .coach-card p {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #1c1c1c;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        footer a {
+            color: #e91e63;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">GameCoaching</a>
+        <nav>
+            <a href="#coaches">Coaches</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Level Up Your Game</h1>
+            <p>Get personalized coaching from the world's best players. Improve your skills, learn strategies, and take your gameplay to the next level.</p>
+            <a href="#coaches" class="cta-button">Find Your Coach</a>
+        </div>
+    </section>
+
+    <section class="coaches-section" id="coaches">
+        <h2>Top Coaches</h2>
+        <div class="coach-cards">
+            <div class="coach-card">
+                <img src="https://via.placeholder.com/300x200" alt="Coach">
+                <h3>Coach Name 1</h3>
+                <p>Specializes in strategy, aiming, and competitive gameplay. Over 5 years of coaching experience.</p>
+            </div>
+            <div class="coach-card">
+                <img src="https://via.placeholder.com/300x200" alt="Coach">
+                <h3>Coach Name 2</h3>
+                <p>Expert in team dynamics, communication, and pro-level play. Known for helping players reach their full potential.</p>
+            </div>
+            <div class="coach-card">
+                <img src="https://via.placeholder.com/300x200" alt="Coach">
+                <h3>Coach Name 3</h3>
+                <p>Focuses on beginner and intermediate players looking to climb ranks quickly and efficiently.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Game Coaching. All rights reserved. | <a href="#contact">Contact Us</a></p>
+    </footer>
+</body>
+
+</html>
