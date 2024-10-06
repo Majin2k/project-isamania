@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Coaching and Courses</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        .section {
+            flex: 1;
+            position: relative;
+            transition: background-color 0.5s ease;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .section:hover {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .section:hover img {
+            transform: scale(1.1);
+        }
+
+        .section h2 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="coaching.html" class="section">
+            <img src="https://via.placeholder.com/800x600" alt="Coaching">
+            <h2>Coaching</h2>
+        </a>
+        <a href="courses.html" class="section">
+            <img src="https://via.placeholder.com/800x600" alt="Courses">
+            <h2>Courses</h2>
+        </a>
+    </div>
+</body>
+
+</html>
